@@ -1,23 +1,15 @@
-# Versão do NodeJS
+# Prerequisites
+* Insomnia it's a free and open source app and you can download it [here](https://github.com/Kong/insomnia/releases/tag/core%402023.1.0)
+* Import this file [voll json](insomnia/voll_insomnia.json) into your insomnia app
+* This project uses the NodeJS version **16.0.0**
 
-- Nesse projeto estamos usando a versão **16.0.0** do NodeJS
+# How does it works
+* The [database](src/database/) will only be created after you run the `npm start` command
+* The server will be running by default in `localhost:3000`
 
-# Iniciando o projeto
-
-Depois de baixar o código para a sua máquina, execute o comando
-
+# How to start the project
+Just run the `npm install` to download all the dependencies, then run the project with `npm start`
 ```
 npm install
-```
-
-Esse comando irá instalar todas as dependencias do projeto na sua máquina.
-
-## Executando o projeto
-
-Depois de instalar todas as dependências execute o comando
-
-```
 npm start
 ```
-
-Assim o seu projeto será compilado e o servidor será esecutado na url `localhost:3000`
